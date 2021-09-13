@@ -39,7 +39,7 @@ export const ProductFeed = ({ products }) => {
       </div>
 
       {products
-          .slice(5,products.length)
+          .slice(5,13)
           .map(({ id, title, price, description, category, image }) => (
             <Product
               key={id}
